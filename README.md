@@ -2,8 +2,7 @@
 ### What Transfers, What Breaks, and What the Field Is Rediscovering
 
 <p align="center">
-  <b>A reading guide, taxonomy companion, and coded corpus for the Agentic AutoML survey.</b><br/>
-  <i>Radwa El Shawi, Mohamed Maher Abdelrahman, and Amin Beheshti</i>
+  <b>A reading guide, taxonomy companion, and coded corpus for the Agentic AutoML survey.</b>
 </p>
 
 <p align="center">
@@ -32,7 +31,6 @@ The survey starts from one observation. Agentic AutoML systems built on large la
 | Item | Description |
 |---|---|
 | **Manuscript title** | Agentic AutoML as Program Search: What Transfers, What Breaks, and What the Field Is Rediscovering |
-| **Authors** | Radwa El Shawi, Mohamed Maher Abdelrahman, Amin Beheshti |
 | **Target venue** | Transactions on Machine Learning Research (TMLR) |
 | **Review period** | January 2023 to October 2026 |
 | **Coded corpus** | 49 systems: 47 agentic systems and 2 amortised in-context models (TabPFN, TabICL) as a contrasting no-search design point |
