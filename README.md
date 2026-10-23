@@ -35,7 +35,7 @@ The survey starts from one observation. Agentic AutoML systems built on large la
 | **Review period** | January 2023 to October 2026 |
 | **Coded corpus** | 49 systems: 47 agentic systems and 2 amortized in-context models (TabPFN, TabICL) as a contrasting no-search design point |
 | **Corpus by year** | 2023: 1, 2024: 7, 2025: 18, 2026: 21 |
-| **Bibliography** | 126 references, listed in full [below](#-complete-bibliography) |
+| **Bibliography** | 131 references, listed in full [below](#-complete-bibliography) |
 | **Main contribution** | A formal account of agentic AutoML as search over a backbone- and scaffold-dependent reachable set of programs, a transfer analysis of classical AutoML machinery, a seven-axis taxonomy derived from the formalism, and six corpus findings. |
 
 ## 🧱 Scope: classical, LLM-assisted, and agentic AutoML
@@ -149,7 +149,7 @@ Axes A–C instantiate the components of the agent scaffold. Axes D–G correspo
 
 ## 🧾 Coded corpus
 
-All 49 systems with their position on every axis, as in Table 5 of the paper. Rows in *italics* are the amortized models included only for contrast. **Rec.** = recombination class (P program-level recombination, E output ensembling, I cross-branch information sharing); **Fid.** = cheap-fidelity evaluation; **Conf.** = coding confidence (●● every coded axis supported by the paper, repository or project page; ●○ at least one axis rests on a secondary description or on the title and abstract).
+All 49 systems with their position on every axis, as in the corpus classification table of the paper. Rows in *italics* are the amortized models included only for contrast. **Rec.** = recombination class (P program-level recombination, E output ensembling, I cross-branch information sharing); **Fid.** = cheap-fidelity evaluation; **Conf.** = coding confidence (●● every coded axis supported by the paper, repository or project page; ●○ at least one axis rests on a secondary description or on the title and abstract).
 
 | System | Year | Status | A | B | Rec. | Fid. | C | D | E | F | G | Conf. |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -246,7 +246,7 @@ All findings are computed over the 47 agentic systems. Of these, 16 are peer-rev
 
 ## 📚 Complete bibliography
 
-All 126 references cited in the manuscript, grouped by role. Status is taken from the BibTeX entry (arXiv-only works are marked as preprints).
+All 131 references cited in the manuscript, grouped by role. Status is taken from the BibTeX entry (arXiv-only works are marked as preprints).
 
 <details open>
 <summary><b>Coded agentic AutoML systems and amortized models</b> (49)</summary>
@@ -359,10 +359,11 @@ All 126 references cited in the manuscript, grouped by role. Status is taken fro
 </details>
 
 <details>
-<summary><b>Controlled studies: LLM versus classical optimization</b> (2)</summary>
+<summary><b>Controlled studies: LLM versus classical optimization</b> (3)</summary>
 
 - [Can LLMs Beat Classical Hyperparameter Optimization Algorithms? A Study on autoresearch](https://arxiv.org/abs/2603.24647) — Ferreira et al., *arXiv preprint*, 2026
 - [When Is an LLM Worth It for Hyperparameter Optimization? A Budget-Matched Study on Tabular Data Finds the Warm-Start Is a Default Configuration, Not the Model](https://arxiv.org/abs/2606.21641) — Rodrigues & Vas, *arXiv preprint*, 2026
+- [Tree-Structured Synergy of Large Language Models and Bayesian Optimization for Efficient CASH](https://arxiv.org/abs/2601.12355) — Xu et al., *Advances in Neural Information Processing Systems (NeurIPS), to appear*, 2026
 
 </details>
 
@@ -376,20 +377,24 @@ All 126 references cited in the manuscript, grouped by role. Status is taken fro
 </details>
 
 <details>
-<summary><b>Related systems outside the coded corpus</b> (2)</summary>
+<summary><b>Related systems and infrastructure outside the coded corpus</b> (5)</summary>
 
 - [MLToolBench: Learning Tool-Augmented Agents for Machine Learning Development](https://arxiv.org/abs/2609.36679) — Yu et al., *arXiv preprint*, 2026
 - [Self-Evolving Recommendation System: End-To-End Autonomous Model Optimization With LLM Agents](https://arxiv.org/abs/2602.10226) — Wang et al., *arXiv preprint*, 2026
+- [AIBuildAI: An AI Agent for Automatically Building AI Models](https://arxiv.org/abs/2604.14455) — Zhang et al., *ICML 2026 Workshop on AI as a Tool for Mathematics, Computer Science, and Machine Learning*, 2026
+- [Discovered, Not Designed: Population Evolution for Collaborative and Compute-Intensive Model Discovery](https://arxiv.org/abs/2610.05950) — Peng et al., *arXiv preprint*, 2026
+- [stratum: A System Infrastructure for Massive Agent-Centric ML Workloads](https://arxiv.org/abs/2603.03589) — Phani et al., *Proceedings of the VLDB Endowment*, 2026
 
 </details>
 
 <details>
-<summary><b>Amortized models and learned surrogates</b> (4)</summary>
+<summary><b>Amortized models and learned surrogates</b> (5)</summary>
 
 - [Drift-resilient tabPFN: In-context learning temporal distribution shifts on tabular data](https://scholar.google.com/scholar?q=Drift-resilient+tabPFN%3A+In-context+learning+temporal+distribution+shifts+on+tabular+data) — Helli et al., *Advances in Neural Information Processing Systems*, 2024
 - [Towards Learning Universal Hyperparameter Optimizers with Transformers](https://arxiv.org/abs/2205.13320) — Chen et al., *Advances in Neural Information Processing Systems (NeurIPS)*, 2022
 - [Large Language Models to Enhance Bayesian Optimization](https://arxiv.org/abs/2402.03921) — Liu et al., *International Conference on Learning Representations (ICLR)*, 2024
 - [LLM Performance Predictors are Good Initializers for Architecture Search](https://arxiv.org/abs/2310.16712) — Jawahar et al., *Findings of the Association for Computational Linguistics: ACL 2024*, 2024
+- [HYSYNTH: Context-Free LLM Approximation for Guiding Program Synthesis](https://arxiv.org/abs/2405.15880) — Barke et al., *Advances in Neural Information Processing Systems (NeurIPS)*, 2024
 
 </details>
 
