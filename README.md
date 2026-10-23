@@ -33,9 +33,9 @@ The survey starts from one observation. Agentic AutoML systems built on large la
 | **Manuscript title** | Agentic AutoML as Program Search: What Transfers, What Breaks, and What the Field Is Rediscovering |
 | **Target venue** | Transactions on Machine Learning Research (TMLR) |
 | **Review period** | January 2023 to October 2026 |
-| **Coded corpus** | 49 systems: 47 agentic systems and 2 amortised in-context models (TabPFN, TabICL) as a contrasting no-search design point |
+| **Coded corpus** | 49 systems: 47 agentic systems and 2 amortized in-context models (TabPFN, TabICL) as a contrasting no-search design point |
 | **Corpus by year** | 2023: 1, 2024: 7, 2025: 18, 2026: 21 |
-| **Bibliography** | 119 references, listed in full [below](#-complete-bibliography) |
+| **Bibliography** | 126 references, listed in full [below](#-complete-bibliography) |
 | **Main contribution** | A formal account of agentic AutoML as search over a backbone- and scaffold-dependent reachable set of programs, a transfer analysis of classical AutoML machinery, a seven-axis taxonomy derived from the formalism, and six corpus findings. |
 
 ## 🧱 Scope: classical, LLM-assisted, and agentic AutoML
@@ -45,7 +45,7 @@ The survey starts from one observation. Agentic AutoML systems built on large la
 | **Classical AutoML** | A point in a designer-specified configuration space (CASH, HPO, NAS) | The framework (fixed, external) | [Auto-WEKA: Combined Selection and Hyperparameter Optimization of Classification Algorithms](https://scholar.google.com/scholar?q=Auto-WEKA%3A+Combined+Selection+and+Hyperparameter+Optimization+of+Classification+Algorithms) (2013), [Auto-sklearn 2.0: Hands-free automl via meta-learning](https://scholar.google.com/scholar?q=Auto-sklearn+2.0%3A+Hands-free+automl+via+meta-learning) (2022), [Autogluon-tabular: Robust and accurate automl for structured data](https://arxiv.org/abs/2003.06505) (2020) |
 | **LLM-assisted AutoML** | Values or components inside a fixed schema; the language model proposes, a fixed pipeline executes | The framework | [MLCopilot: Unleashing the Power of Large Language Models in Solving Machine Learning Tasks](https://scholar.google.com/scholar?q=MLCopilot%3A+Unleashing+the+Power+of+Large+Language+Models+in+Solving+Machine+Learning+Tasks) (2024), [Large language models for automated data science: Introducing caafe for context-aware automated feature engineering](https://scholar.google.com/scholar?q=Large+language+models+for+automated+data+science%3A+Introducing+caafe+for+context-aware+automated+feature+engineering) (2023) |
 | **Agentic AutoML** (this survey) | Executable programs; the agent writes, runs, and revises code in a loop | Often the agent itself | [AIDE: AI-Driven Exploration in the Space of Code](https://arxiv.org/abs/2502.13138) (2025), [MLE-STAR: Machine Learning Engineering Agent via Search and Targeted Refinement](https://scholar.google.com/scholar?q=MLE-STAR%3A+Machine+Learning+Engineering+Agent+via+Search+and+Targeted+Refinement) (2025), [ML-Master: Towards AI-for-AI via Integration of Exploration and Reasoning](https://arxiv.org/abs/2506.16499) (2025) |
-| **Amortised in-context models** (contrast only) | Nothing: prediction from context in one forward pass | Not applicable | [Accurate predictions on small data with a tabular foundation model](https://scholar.google.com/scholar?q=Accurate+predictions+on+small+data+with+a+tabular+foundation+model) (2025), [TabICL: A Tabular Foundation Model for In-Context Learning on Large Data](https://scholar.google.com/scholar?q=TabICL%3A+A+Tabular+Foundation+Model+for+In-Context+Learning+on+Large+Data) (2025) |
+| **Amortized in-context models** (contrast only) | Nothing: prediction from context in one forward pass | Not applicable | [Accurate predictions on small data with a tabular foundation model](https://scholar.google.com/scholar?q=Accurate+predictions+on+small+data+with+a+tabular+foundation+model) (2025), [TabICL: A Tabular Foundation Model for In-Context Learning on Large Data](https://scholar.google.com/scholar?q=TabICL%3A+A+Tabular+Foundation+Model+for+In-Context+Learning+on+Large+Data) (2025) |
 
 Agents whose target is open-ended research automation (hypothesis generation, paper writing) are out of scope. A system that describes itself as a research agent is in scope for the results it reports on a machine-learning engineering benchmark with a measurable objective.
 
@@ -75,7 +75,7 @@ Axes A–C instantiate the components of the agent scaffold. Axes D–G correspo
 | **C. Memory and context U** | How do execution observations re-enter the context? | C1 flat history · C2 structured trace / tree · C3 retrieval / case-based · C4 persistent skill library |
 | **D. Verification regime V** | Which violations are checked, and are they prevented or only detected? | syntactic only · detective (post hoc) · structural (violation inexpressible) · semantic (unbiased score) |
 | **E. Cost model** | Are generation cost and execution cost modelled or reported? | E1 unreported · E2ₓ execution cost · E2_g generation cost · E3 both (generation fraction φ computable) |
-| **F. Classical hybridisation** | How much classical AutoML machinery is reused? | F1 none · F2 warm-start / prior shaping · F3 full delegation to an AutoML library |
+| **F. Classical hybridization** | How much classical AutoML machinery is reused? | F1 none · F2 warm-start / prior shaping · F3 full delegation to an AutoML library |
 | **G. Objective stationarity** | Is the data and objective assumed fixed? | G1 static · G2 drifting / temporal · G3 federated / partially observable |
 
 ## 🛠️ Detailed guide by axis
@@ -100,7 +100,8 @@ Axes A–C instantiate the components of the agent scaffold. Axes D–G correspo
 | **B5** Ablation-guided targeting | 1 | [MLE-STAR](https://arxiv.org/abs/2506.15692) |
 | **B6** Role-decomposed | 11 | [R&D-Agent](https://arxiv.org/abs/2505.14738), [AutoML-Agent](https://arxiv.org/abs/2410.02958), [MetaGPT](https://arxiv.org/abs/2308.00352), [AutoKaggle](https://arxiv.org/abs/2410.20424), [MLZero](https://arxiv.org/abs/2505.13941), [BDaaS-Agent](https://arxiv.org/abs/2606.17915), [MALMAS](https://arxiv.org/abs/2604.20261), [EurekAgent](https://arxiv.org/abs/2606.13662), [HASTE](https://arxiv.org/abs/2606.30911), [iML](https://arxiv.org/abs/2602.13937), [AiScientist](https://arxiv.org/abs/2604.13018) |
 | **B7** Learned (RL-trained) policy | 4 | [ML-Agent](https://arxiv.org/abs/2505.23723), [RL4MLE](https://arxiv.org/abs/2509.01684), [MLE-Ideator](https://aclanthology.org/2026.eacl-short.32.pdf), [SandMLE](https://arxiv.org/abs/2604.04872) |
-| *Recombination present* (cross-cutting) | 14 | [MLE-STAR](https://arxiv.org/abs/2506.15692), [I-MCTS](https://arxiv.org/abs/2502.14693), [FM-Agent](https://arxiv.org/abs/2510.26144), [AutoMLGen](https://arxiv.org/abs/2510.08511), [KompeteAI](https://arxiv.org/abs/2508.10177), [AgentGA](https://arxiv.org/abs/2604.14655), [GEAR](https://arxiv.org/abs/2605.13874), [MLEvolve](https://arxiv.org/abs/2606.06473), [MARS](https://arxiv.org/abs/2602.02660), [LLM-FE](https://arxiv.org/abs/2503.14434), [SEA-TS](https://arxiv.org/abs/2603.04873), [AiScientist](https://arxiv.org/abs/2604.13018), [Praxist](https://arxiv.org/abs/2608.25955), [AgentNAS](https://arxiv.org/abs/2607.07984) |
+| *Program-level recombination (R1)* (cross-cutting) | 9 | [FM-Agent](https://arxiv.org/abs/2510.26144), [AutoMLGen](https://arxiv.org/abs/2510.08511), [KompeteAI](https://arxiv.org/abs/2508.10177), [AgentGA](https://arxiv.org/abs/2604.14655), [GEAR](https://arxiv.org/abs/2605.13874), [MLEvolve](https://arxiv.org/abs/2606.06473), [LLM-FE](https://arxiv.org/abs/2503.14434), [Praxist](https://arxiv.org/abs/2608.25955), [AgentNAS](https://arxiv.org/abs/2607.07984) |
+| *Output ensembling (R2) or cross-branch information sharing (R3)* (cross-cutting) | 5 | [MLE-STAR](https://arxiv.org/abs/2506.15692) (R2), [AiScientist](https://arxiv.org/abs/2604.13018) (R2), [I-MCTS](https://arxiv.org/abs/2502.14693) (R3), [MARS](https://arxiv.org/abs/2602.02660) (R3), [SEA-TS](https://arxiv.org/abs/2603.04873) (R3) |
 | *Cheap-fidelity evaluation* (cross-cutting) | 3 | [ArchPilot](https://arxiv.org/abs/2511.03985), [Praxist](https://arxiv.org/abs/2608.25955), [AgentNAS](https://arxiv.org/abs/2607.07984) |
 
 ### C. Memory and context construction
@@ -130,7 +131,7 @@ Axes A–C instantiate the components of the agent scaffold. Axes D–G correspo
 | **E2_g** Generation cost reported | 5 | [MLE-Ideator](https://aclanthology.org/2026.eacl-short.32.pdf), [AiScientist](https://arxiv.org/abs/2604.13018), [Arbor](https://arxiv.org/abs/2606.11926), [Praxist](https://arxiv.org/abs/2608.25955), [Malena](https://arxiv.org/abs/2609.40303) |
 | **E3** Both reported | 0 | — |
 
-### F. Hybridisation with classical AutoML
+### F. Hybridization with classical AutoML
 
 | Position | Count | Systems |
 |---|---|---|
@@ -148,74 +149,74 @@ Axes A–C instantiate the components of the agent scaffold. Axes D–G correspo
 
 ## 🧾 Coded corpus
 
-All 49 systems with their position on every axis, as in Table 4 of the paper. Rows in *italics* are the amortised models included only for contrast. **Rec.** = recombination; **Fid.** = cheap-fidelity evaluation; **Conf.** = coding confidence (●●● primary source, ●●○ secondary description).
+All 49 systems with their position on every axis, as in Table 5 of the paper. Rows in *italics* are the amortized models included only for contrast. **Rec.** = recombination class (P program-level recombination, E output ensembling, I cross-branch information sharing); **Fid.** = cheap-fidelity evaluation; **Conf.** = coding confidence (●● every coded axis supported by the paper, repository or project page; ●○ at least one axis rests on a secondary description or on the title and abstract).
 
 | System | Year | Status | A | B | Rec. | Fid. | C | D | E | F | G | Conf. |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| **[CAAFE](https://scholar.google.com/scholar?q=Large+language+models+for+automated+data+science%3A+Introducing+caafe+for+context-aware+automated+feature+engineering)** | 2023 | Advances in Neural Information Processing Systems | A2 | B2 |  |  | C1 | V_prot (detective) | E1 | F2 | G1 | ●●● |
-| **[Agent-K](https://arxiv.org/abs/2411.03562)** | 2024 | arXiv preprint | A1 | B1 |  |  | C4 | V_prot (detective) | E1 | F2 | G1 | ●●● |
-| **[AutoKaggle](https://arxiv.org/abs/2410.20424)** | 2024 | arXiv preprint | A1 | B6 |  |  | C1 | V_prot (detective) | E1 | F1 | G1 | ●●● |
-| **[DS-Agent](https://arxiv.org/abs/2402.17453)** | 2024 | Proceedings of the International Conference on Machine Learning (ICML) | A1 | B2 |  |  | C3 | V_syn | E1 | F1 | G1 | ●●● |
-| **[GizaML](https://scholar.google.com/scholar?q=GizaML%3A+A+Collaborative+Meta-learning+Based+Framework+Using+LLM+For+Automated+Time-Series+Forecasting.)** | 2024 | EDBT | A3 | B1 |  |  | C3 | V_prot (structural) | E1 | F2 | G2 | ●●● |
-| **[MetaGPT](https://arxiv.org/abs/2308.00352)** | 2024 | Proceedings of the International Conference on Learning Representations (ICLR) | A1 | B6 |  |  | C1 | V_syn | E1 | F1 | G1 | ●●● |
-| **[MLCopilot](https://scholar.google.com/scholar?q=MLCopilot%3A+Unleashing+the+Power+of+Large+Language+Models+in+Solving+Machine+Learning+Tasks)** | 2024 | Proceedings of the 18th Conference of the European Chapter of the Association for Computational Linguistics (EACL) | A3 | B1 |  |  | C3 | V_prot (structural) | E1 | F2 | G1 | ●●● |
-| **[SELA](https://arxiv.org/abs/2410.17238)** | 2024 | arXiv preprint | A2 | B3 |  |  | C2 | V_syn | E1 | F2 | G1 | ●●● |
-| **[AIDE](https://arxiv.org/abs/2502.13138)** | 2025 | arXiv preprint | A1 | B2 |  |  | C2 | V_syn | E1 | F1 | G1 | ●●● |
-| **[AIRA-dojo](https://arxiv.org/abs/2507.02554)** | 2025 | arXiv preprint | A1 | B3 |  |  | C2 | V_syn | E1 | F1 | G1 | ●●● |
-| **[ArchPilot](https://arxiv.org/abs/2511.03985)** | 2025 | arXiv preprint | A1 | B3 |  | ✓ | C2 | V_syn | E1 | F1 | G1 | ●●● |
-| **[AutoMind](https://arxiv.org/abs/2506.10974)** | 2025 | arXiv preprint | A1 | B3 |  |  | C3 | V_syn | E1 | F1 | G1 | ●●● |
-| **[AutoML-Agent](https://arxiv.org/abs/2410.02958)** | 2025 | Proceedings of the International Conference on Machine Learning (ICML) | A1 | B6 |  |  | C3 | V_prot (detective) | E1 | F1 | G1 | ●●● |
-| **[AutoMLGen](https://arxiv.org/abs/2510.08511)** | 2025 | arXiv preprint | A2 | B3ᵍ | ✓ |  | C3 | V_syn | E1 | F1 | G1 | ●●● |
-| **[CoMind](https://arxiv.org/abs/2506.20640)** | 2025 | International Conference on Learning Representations | A1 | B4 |  |  | C3 | V_syn | E1 | F1 | G1 | ●●● |
-| **[Data-Interpreter](https://arxiv.org/abs/2402.18679)** | 2025 | Findings of the Association for Computational Linguistics: ACL 2025 | A1 | B1 |  |  | C2 | V_prot (detective) | E1 | F1 | G1 | ●●○ |
-| **[FM-Agent](https://arxiv.org/abs/2510.26144)** | 2025 | arXiv preprint | A1 | B4 | ✓ |  | C3 | V_prot (detective) | E1 | F1 | G1 | ●●● |
-| **[KompeteAI](https://arxiv.org/abs/2508.10177)** | 2025 | arXiv preprint | A1 | B3 | ✓ |  | C3 | V_syn | E1 | F1 | G1 | ●●● |
-| **[LightAutoDS-Tab](https://arxiv.org/abs/2507.13413)** | 2025 | arXiv preprint | A4 | B1 |  |  | C1 | V_prot (structural) | E1 | F3 | G1 | ●●● |
-| **[ML-Agent](https://arxiv.org/abs/2505.23723)** | 2025 | International Conference on Machine Learning | A1 | B7 |  |  | C1 | V_syn | E1 | F1 | G1 | ●●● |
-| **[ML-Master](https://arxiv.org/abs/2506.16499)** | 2025 | arXiv preprint | A1 | B3 |  |  | C2 | V_syn | E1 | F1 | G1 | ●●● |
-| **[MLE-STAR](https://arxiv.org/abs/2506.15692)** | 2025 | Advances in Neural Information Processing Systems | A2 | B5 | ✓ |  | C3 | V_syn | E1 | F1 | G1 | ●●● |
-| **[MLZero](https://arxiv.org/abs/2505.13941)** | 2025 | Advances in Neural Information Processing Systems (NeurIPS) | A4 | B6 |  |  | C3 | V_prot (structural) | E1 | F3 | G1 | ●●● |
-| **[Operand-Quant](https://arxiv.org/abs/2510.11694)** | 2025 | arXiv preprint | A1 | B2 |  |  | C1 | V_syn | E1 | F1 | G1 | ●●○ |
-| **[R&D-Agent](https://arxiv.org/abs/2505.14738)** | 2025 | arXiv preprint | A1 | B6 |  |  | C1 | V_syn | E1 | F1 | G1 | ●●● |
-| **[RL4MLE](https://arxiv.org/abs/2509.01684)** | 2025 | International Conference on Learning Representations | A1 | B7 |  |  | C1 | V_syn | E2ₓ | F1 | G1 | ●●● |
-| **[AgentGA](https://arxiv.org/abs/2604.14655)** | 2026 | arXiv preprint | A1 | B4 | ✓ |  | C2 | V_syn | E1 | F1 | G1 | ●●○ |
-| **[AgentNAS](https://arxiv.org/abs/2607.07984)** | 2026 | arXiv preprint | A2 | B4 | ✓ | ✓ | C1 | V_syn | E2ₓ | F2 | G1 | ●●● |
-| **[AiScientist](https://arxiv.org/abs/2604.13018)** | 2026 | arXiv preprint | A1 | B6 | ✓ |  | C2 | V_syn | E2_g | F1 | G1 | ●●○ |
-| **[Arbor](https://arxiv.org/abs/2606.11926)** | 2026 | arXiv preprint | A2 | B3 |  |  | C2 | V_prot (structural) | E2_g | F1 | G1 | ●●● |
-| **[BDaaS-Agent](https://arxiv.org/abs/2606.17915)** | 2026 | arXiv preprint | A4 | B6 |  |  | C1 | V_prot (detective) | E1 | F3 | G2 | ●●○ |
-| **[EurekAgent](https://arxiv.org/abs/2606.13662)** | 2026 | arXiv preprint | A1 | B6 |  |  | C1 | V_prot (structural) | E2ₓ | F1 | G1 | ●●● |
-| **[GEAR](https://arxiv.org/abs/2605.13874)** | 2026 | arXiv preprint | A1 | B4 | ✓ |  | C2 | V_syn | E1 | F1 | G1 | ●●○ |
-| **[HASTE](https://arxiv.org/abs/2606.30911)** | 2026 | arXiv preprint | A1 | B6 |  |  | C4 | V_syn | E1 | F1 | G1 | ●●● |
-| **[I-MCTS](https://arxiv.org/abs/2502.14693)** | 2026 | Findings of the Association for Computational Linguistics: EACL | A2 | B3 | ✓ |  | C2 | V_syn | E1 | F1 | G1 | ●●● |
-| **[iML](https://arxiv.org/abs/2602.13937)** | 2026 | arXiv preprint | A2 | B6 |  |  | C1 | V_prot (detective) | E1 | F1 | G1 | ●●● |
-| **[KAPSO](https://arxiv.org/abs/2601.21526)** | 2026 | arXiv preprint | A1 | B2 |  |  | C3 | V_syn | E1 | F1 | G1 | ●●● |
-| **[LLM-FE](https://arxiv.org/abs/2503.14434)** | 2026 | Transactions on Machine Learning Research | A2 | B4 | ✓ |  | C4 | V_prot (detective) | E1 | F1 | G1 | ●●● |
-| **[Malena](https://arxiv.org/abs/2609.40303)** | 2026 | arXiv preprint | A1 | B2 |  |  | C1 | V_syn | E2_g | F1 | G1 | ●●● |
-| **[MALMAS](https://arxiv.org/abs/2604.20261)** | 2026 | Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL) | A2 | B6 |  |  | C4 | V_syn | E1 | F1 | G1 | ●●● |
-| **[MARS](https://arxiv.org/abs/2602.02660)** | 2026 | arXiv preprint | A1 | B3 | ✓ |  | C2 | V_syn | E2ₓ | F1 | G1 | ●●● |
-| **[MLE-Ideator](https://aclanthology.org/2026.eacl-short.32.pdf)** | 2026 | Proceedings of the 19th Conference of the European Chapter of the Association for Computational Linguistics (Volume 2: Short Papers) | A1 | B7 |  |  | C1 | V_syn | E2_g | F1 | G1 | ●●● |
-| **[MLEvolve](https://arxiv.org/abs/2606.06473)** | 2026 | arXiv preprint | A2 | B4 | ✓ |  | C4 | V_syn | E1 | F1 | G1 | ●●○ |
-| **[Praxist](https://arxiv.org/abs/2608.25955)** | 2026 | arXiv preprint | A1 | B4 | ✓ | ✓ | C2 | V_prot (structural) | E2_g | F1 | G1 | ●●● |
-| **[SandMLE](https://arxiv.org/abs/2604.04872)** | 2026 | arXiv preprint | A1 | B7 |  |  | C1 | V_syn | E1 | F1 | G1 | ●●● |
-| **[ScienceFlow](https://arxiv.org/abs/2608.14354)** | 2026 | arXiv preprint | A1 | B3 |  |  | C2 | V_syn | E2ₓ | F1 | G1 | ●●○ |
-| **[SEA-TS](https://arxiv.org/abs/2603.04873)** | 2026 | arXiv preprint | A1 | B3 | ✓ |  | C2 | V_prot (detective) | E1 | F1 | G2 | ●●● |
-| *[TabICL](https://scholar.google.com/scholar?q=TabICL%3A+A+Tabular+Foundation+Model+for+In-Context+Learning+on+Large+Data)* | 2025 | Proceedings of the 42nd International Conference on Machine Learning (ICML) | — | — |  |  | — | V_prot (structural) | E1 | — | — | ●●● |
-| *[TabPFN](https://scholar.google.com/scholar?q=Accurate+predictions+on+small+data+with+a+tabular+foundation+model)* | 2025 | Nature | — | — |  |  | — | V_prot (structural) | E1 | — | — | ●●● |
+| **[CAAFE](https://scholar.google.com/scholar?q=Large+language+models+for+automated+data+science%3A+Introducing+caafe+for+context-aware+automated+feature+engineering)** | 2023 | Advances in Neural Information Processing Systems | A2 | B2 |  |  | C1 | V_prot (detective) | E1 | F2 | G1 | ●● |
+| **[Agent-K](https://arxiv.org/abs/2411.03562)** | 2024 | arXiv preprint | A1 | B1 |  |  | C4 | V_prot (detective) | E1 | F2 | G1 | ●● |
+| **[AutoKaggle](https://arxiv.org/abs/2410.20424)** | 2024 | arXiv preprint | A1 | B6 |  |  | C1 | V_prot (detective) | E1 | F1 | G1 | ●● |
+| **[DS-Agent](https://arxiv.org/abs/2402.17453)** | 2024 | Proceedings of the International Conference on Machine Learning (ICML) | A1 | B2 |  |  | C3 | V_syn | E1 | F1 | G1 | ●● |
+| **[GizaML](https://scholar.google.com/scholar?q=GizaML%3A+A+Collaborative+Meta-learning+Based+Framework+Using+LLM+For+Automated+Time-Series+Forecasting.)** | 2024 | EDBT | A3 | B1 |  |  | C3 | V_prot (structural) | E1 | F2 | G2 | ●● |
+| **[MetaGPT](https://arxiv.org/abs/2308.00352)** | 2024 | Proceedings of the International Conference on Learning Representations (ICLR) | A1 | B6 |  |  | C1 | V_syn | E1 | F1 | G1 | ●● |
+| **[MLCopilot](https://scholar.google.com/scholar?q=MLCopilot%3A+Unleashing+the+Power+of+Large+Language+Models+in+Solving+Machine+Learning+Tasks)** | 2024 | Proceedings of the 18th Conference of the European Chapter of the Association for Computational Linguistics (EACL) | A3 | B1 |  |  | C3 | V_prot (structural) | E1 | F2 | G1 | ●● |
+| **[SELA](https://arxiv.org/abs/2410.17238)** | 2024 | arXiv preprint | A2 | B3 |  |  | C2 | V_syn | E1 | F2 | G1 | ●● |
+| **[AIDE](https://arxiv.org/abs/2502.13138)** | 2025 | arXiv preprint | A1 | B2 |  |  | C2 | V_syn | E1 | F1 | G1 | ●● |
+| **[AIRA-dojo](https://arxiv.org/abs/2507.02554)** | 2025 | arXiv preprint | A1 | B3 |  |  | C2 | V_syn | E1 | F1 | G1 | ●● |
+| **[ArchPilot](https://arxiv.org/abs/2511.03985)** | 2025 | arXiv preprint | A1 | B3 |  | ✓ | C2 | V_syn | E1 | F1 | G1 | ●● |
+| **[AutoMind](https://arxiv.org/abs/2506.10974)** | 2025 | arXiv preprint | A1 | B3 |  |  | C3 | V_syn | E1 | F1 | G1 | ●● |
+| **[AutoML-Agent](https://arxiv.org/abs/2410.02958)** | 2025 | Proceedings of the International Conference on Machine Learning (ICML) | A1 | B6 |  |  | C3 | V_prot (detective) | E1 | F1 | G1 | ●● |
+| **[AutoMLGen](https://arxiv.org/abs/2510.08511)** | 2025 | arXiv preprint | A2 | B3ᵍ | P |  | C3 | V_syn | E1 | F1 | G1 | ●● |
+| **[CoMind](https://arxiv.org/abs/2506.20640)** | 2025 | International Conference on Learning Representations | A1 | B4 |  |  | C3 | V_syn | E1 | F1 | G1 | ●● |
+| **[Data-Interpreter](https://arxiv.org/abs/2402.18679)** | 2025 | Findings of the Association for Computational Linguistics: ACL 2025 | A1 | B1 |  |  | C2 | V_prot (detective) | E1 | F1 | G1 | ●○ |
+| **[FM-Agent](https://arxiv.org/abs/2510.26144)** | 2025 | arXiv preprint | A1 | B4 | P |  | C3 | V_prot (detective) | E1 | F1 | G1 | ●● |
+| **[KompeteAI](https://arxiv.org/abs/2508.10177)** | 2025 | arXiv preprint | A1 | B3 | P |  | C3 | V_syn | E1 | F1 | G1 | ●● |
+| **[LightAutoDS-Tab](https://arxiv.org/abs/2507.13413)** | 2025 | arXiv preprint | A4 | B1 |  |  | C1 | V_prot (structural) | E1 | F3 | G1 | ●● |
+| **[ML-Agent](https://arxiv.org/abs/2505.23723)** | 2025 | International Conference on Machine Learning | A1 | B7 |  |  | C1 | V_syn | E1 | F1 | G1 | ●● |
+| **[ML-Master](https://arxiv.org/abs/2506.16499)** | 2025 | arXiv preprint | A1 | B3 |  |  | C2 | V_syn | E1 | F1 | G1 | ●● |
+| **[MLE-STAR](https://arxiv.org/abs/2506.15692)** | 2025 | Advances in Neural Information Processing Systems | A2 | B5 | E |  | C3 | V_syn | E1 | F1 | G1 | ●● |
+| **[MLZero](https://arxiv.org/abs/2505.13941)** | 2025 | Advances in Neural Information Processing Systems (NeurIPS) | A4 | B6 |  |  | C3 | V_prot (structural) | E1 | F3 | G1 | ●● |
+| **[Operand-Quant](https://arxiv.org/abs/2510.11694)** | 2025 | arXiv preprint | A1 | B2 |  |  | C1 | V_syn | E1 | F1 | G1 | ●○ |
+| **[R&D-Agent](https://arxiv.org/abs/2505.14738)** | 2025 | arXiv preprint | A1 | B6 |  |  | C1 | V_syn | E1 | F1 | G1 | ●● |
+| **[RL4MLE](https://arxiv.org/abs/2509.01684)** | 2025 | International Conference on Learning Representations | A1 | B7 |  |  | C1 | V_syn | E2ₓ | F1 | G1 | ●● |
+| **[AgentGA](https://arxiv.org/abs/2604.14655)** | 2026 | arXiv preprint | A1 | B4 | P |  | C2 | V_syn | E1 | F1 | G1 | ●○ |
+| **[AgentNAS](https://arxiv.org/abs/2607.07984)** | 2026 | arXiv preprint | A2 | B4 | P | ✓ | C1 | V_syn | E2ₓ | F2 | G1 | ●● |
+| **[AiScientist](https://arxiv.org/abs/2604.13018)** | 2026 | arXiv preprint | A1 | B6 | E |  | C2 | V_syn | E2_g | F1 | G1 | ●○ |
+| **[Arbor](https://arxiv.org/abs/2606.11926)** | 2026 | arXiv preprint | A2 | B3 |  |  | C2 | V_prot (structural) | E2_g | F1 | G1 | ●● |
+| **[BDaaS-Agent](https://arxiv.org/abs/2606.17915)** | 2026 | arXiv preprint | A4 | B6 |  |  | C1 | V_prot (detective) | E1 | F3 | G2 | ●○ |
+| **[EurekAgent](https://arxiv.org/abs/2606.13662)** | 2026 | arXiv preprint | A1 | B6 |  |  | C1 | V_prot (structural) | E2ₓ | F1 | G1 | ●● |
+| **[GEAR](https://arxiv.org/abs/2605.13874)** | 2026 | arXiv preprint | A1 | B4 | P |  | C2 | V_syn | E1 | F1 | G1 | ●○ |
+| **[HASTE](https://arxiv.org/abs/2606.30911)** | 2026 | arXiv preprint | A1 | B6 |  |  | C4 | V_syn | E1 | F1 | G1 | ●● |
+| **[I-MCTS](https://arxiv.org/abs/2502.14693)** | 2026 | Findings of the Association for Computational Linguistics: EACL | A2 | B3 | I |  | C2 | V_syn | E1 | F1 | G1 | ●● |
+| **[iML](https://arxiv.org/abs/2602.13937)** | 2026 | arXiv preprint | A2 | B6 |  |  | C1 | V_prot (detective) | E1 | F1 | G1 | ●● |
+| **[KAPSO](https://arxiv.org/abs/2601.21526)** | 2026 | arXiv preprint | A1 | B2 |  |  | C3 | V_syn | E1 | F1 | G1 | ●● |
+| **[LLM-FE](https://arxiv.org/abs/2503.14434)** | 2026 | Transactions on Machine Learning Research | A2 | B4 | P |  | C4 | V_prot (detective) | E1 | F1 | G1 | ●● |
+| **[Malena](https://arxiv.org/abs/2609.40303)** | 2026 | arXiv preprint | A1 | B2 |  |  | C1 | V_syn | E2_g | F1 | G1 | ●● |
+| **[MALMAS](https://arxiv.org/abs/2604.20261)** | 2026 | Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL) | A2 | B6 |  |  | C4 | V_syn | E1 | F1 | G1 | ●● |
+| **[MARS](https://arxiv.org/abs/2602.02660)** | 2026 | arXiv preprint | A1 | B3 | I |  | C2 | V_syn | E2ₓ | F1 | G1 | ●● |
+| **[MLE-Ideator](https://aclanthology.org/2026.eacl-short.32.pdf)** | 2026 | Proceedings of the 19th Conference of the European Chapter of the Association for Computational Linguistics (Volume 2: Short Papers) | A1 | B7 |  |  | C1 | V_syn | E2_g | F1 | G1 | ●● |
+| **[MLEvolve](https://arxiv.org/abs/2606.06473)** | 2026 | arXiv preprint | A2 | B4 | P |  | C4 | V_syn | E1 | F1 | G1 | ●○ |
+| **[Praxist](https://arxiv.org/abs/2608.25955)** | 2026 | arXiv preprint | A1 | B4 | P | ✓ | C2 | V_prot (structural) | E2_g | F1 | G1 | ●● |
+| **[SandMLE](https://arxiv.org/abs/2604.04872)** | 2026 | arXiv preprint | A1 | B7 |  |  | C1 | V_syn | E1 | F1 | G1 | ●● |
+| **[ScienceFlow](https://arxiv.org/abs/2608.14354)** | 2026 | arXiv preprint | A1 | B3 |  |  | C2 | V_syn | E2ₓ | F1 | G1 | ●○ |
+| **[SEA-TS](https://arxiv.org/abs/2603.04873)** | 2026 | arXiv preprint | A1 | B3 | I |  | C2 | V_prot (detective) | E1 | F1 | G2 | ●● |
+| *[TabICL](https://scholar.google.com/scholar?q=TabICL%3A+A+Tabular+Foundation+Model+for+In-Context+Learning+on+Large+Data)* | 2025 | Proceedings of the 42nd International Conference on Machine Learning (ICML) | — | — |  |  | — | V_prot (structural) | E1 | — | — | ●● |
+| *[TabPFN](https://scholar.google.com/scholar?q=Accurate+predictions+on+small+data+with+a+tabular+foundation+model)* | 2025 | Nature | — | — |  |  | — | V_prot (structural) | E1 | — | — | ●● |
 
 ## 📊 Corpus findings
 
-All findings are computed over the 47 agentic systems.
+All findings are computed over the 47 agentic systems. Of these, 16 are peer-reviewed, 1 is a workshop paper and 30 are preprints; F1–F4 hold on the peer-reviewed subset with similar proportions, while F5 and F6 rest mostly on preprints.
 
 | Finding | Result | Reading |
 |---|---|---|
-| **F1** Transfer prediction confirmed | 0/47 use a geometry-dependent operator; 27/47 (57%) use comparison- or recombination-based operators | Operators that need metric structure on the search space do not survive; one category, learned policies (4 systems), was not anticipated. |
-| **F5** Recombination is converging while its vocabulary fragments | 14/47 (30%) implement a recombination operator, none before 2025 | The same operator (genetic programming's crossover) is introduced under at least six different names. |
+| **F1** Transfer prediction holds | 0/47 use an operator that needs a hand-specified geometry; 27/47 (57%) use comparison-based operators | Learned surrogates (e.g. a language-model value estimate) and learned policies (4 systems) lie outside the geometry/comparison dichotomy. |
+| **F5** Program-level recombination is reintroduced under many names | 9/47 (19%) recombine code from distinct parents, all from 2025–2026; 5 more use output ensembling or cross-branch information sharing | Nine systems introduce the mechanism of genetic programming's crossover under seven different names. |
 | **F6** The one surviving classical property is almost unexploited | 3/47 (6%) exploit cheap-fidelity evaluation | Multi-fidelity allocation transfers but is nearly absent. |
-| **F4** Most systems discard classical machinery | 38/47 (81%) have no classical hybridisation | Several classical techniques would transfer intact. |
+| **F4** Most systems discard classical machinery | 38/47 (81%) have no classical hybridization | Several classical techniques would transfer intact. |
 | **F2** Most systems are exposed to objective gaming | 30/47 (64%) verify only that code runs; 7/47 (15%) enforce verification structurally | When the agent writes its own evaluation code, degrading the estimator is a rewarded strategy. |
 | **F3** The generation fraction is never computable | 0/47 report both generation and execution cost | Execution cost and generation cost are each reported by a few systems, but never together. |
 
-![Corpus analysis: search operators, verification regimes, and hybridisation.](assets/corpus_findings.png)
+![Corpus analysis: search operators, verification regimes, and hybridization.](assets/corpus_findings.png)
 
 ## 🧪 What the reported numbers establish
 
@@ -237,7 +238,7 @@ All findings are computed over the 47 agentic systems.
 | **A2** | Cost-aware allocation when proposals are not free (φ > 0) | Two-cost model, F3, F6 |
 | **A3** | Mandatory cost and variance reporting (backbone version, task set by name and count, metric, seeds, tokens, wall-clock, trajectories) | F3, evaluation analysis |
 | **A4** | Factorial experimental designs that identify the scaffold contribution | Non-identifiability |
-| **A5** | Structural verification through externalised, immutable evaluation | Endogeneity, F2 |
+| **A5** | Structural verification through externalized, immutable evaluation | Endogeneity, F2 |
 | **A6** | Contamination-resistant benchmark construction (post-cutoff or synthetic tasks) | Evaluation analysis |
 | **A7** | Drift-aware horizon selection and discounting of stale scores | Stale-score bias |
 | **A8** | Program-space representations that admit analysis (finite pools, typed DSLs) | Absence of regret theory |
@@ -245,10 +246,10 @@ All findings are computed over the 47 agentic systems.
 
 ## 📚 Complete bibliography
 
-All 119 references cited in the manuscript, grouped by role. Status is taken from the BibTeX entry (arXiv-only works are marked as preprints).
+All 126 references cited in the manuscript, grouped by role. Status is taken from the BibTeX entry (arXiv-only works are marked as preprints).
 
 <details open>
-<summary><b>Coded agentic AutoML systems and amortised models</b> (49)</summary>
+<summary><b>Coded agentic AutoML systems and amortized models</b> (49)</summary>
 
 - **CAAFE**: [Large language models for automated data science: Introducing caafe for context-aware automated feature engineering](https://scholar.google.com/scholar?q=Large+language+models+for+automated+data+science%3A+Introducing+caafe+for+context-aware+automated+feature+engineering) — Hollmann et al., *Advances in Neural Information Processing Systems*, 2023
 - **Agent-K**: [Kolb-Based Experiential Learning for Generalist Agents with Human-Level Kaggle Data Science Performance](https://arxiv.org/abs/2411.03562) — Grosnit et al., *arXiv preprint*, 2024
@@ -320,7 +321,7 @@ All 119 references cited in the manuscript, grouped by role. Status is taken fro
 </details>
 
 <details>
-<summary><b>Classical AutoML foundations (optimisers, NAS, libraries)</b> (18)</summary>
+<summary><b>Classical AutoML foundations (optimizers, NAS, libraries)</b> (18)</summary>
 
 - [Algorithms for hyper-parameter optimization](https://scholar.google.com/scholar?q=Algorithms+for+hyper-parameter+optimization) — Bergstra et al., *Advances in Neural Information Processing Systems*, 2011
 - [Practical Bayesian optimization of machine learning algorithms](https://scholar.google.com/scholar?q=Practical+Bayesian+optimization+of+machine+learning+algorithms) — Snoek et al., *Advances in Neural Information Processing Systems*, 2012
@@ -338,23 +339,27 @@ All 119 references cited in the manuscript, grouped by role. Status is taken fro
 - [Autogluon-tabular: Robust and accurate automl for structured data](https://arxiv.org/abs/2003.06505) — Erickson et al., *arXiv preprint*, 2020
 - [FLAML: A Fast and Lightweight AutoML Library](https://scholar.google.com/scholar?q=FLAML%3A+A+Fast+and+Lightweight+AutoML+Library) — Wang et al., *Proceedings of Machine Learning and Systems (MLSys)*, 2021
 - [Auto-sklearn 2.0: Hands-free automl via meta-learning](https://scholar.google.com/scholar?q=Auto-sklearn+2.0%3A+Hands-free+automl+via+meta-learning) — Feurer et al., *Journal of Machine Learning Research*, 2022
-- [MLJAR AutoML: Human-in-the-Loop Machine Learning](https://mljar.com) — Team, *Software / web resource*, 2022
+- [MLJAR AutoML: Human-in-the-Loop Machine Learning](https://mljar.com) — MLJAR Team, *Software / web resource*, 2022
 - [SMAC3: A versatile Bayesian optimization package for hyperparameter optimization](https://scholar.google.com/scholar?q=SMAC3%3A+A+versatile+Bayesian+optimization+package+for+hyperparameter+optimization) — Lindauer et al., *Journal of Machine Learning Research*, 2022
 
 </details>
 
 <details>
-<summary><b>Benchmarks and evaluation infrastructure</b> (4)</summary>
+<summary><b>Benchmarks and evaluation infrastructure</b> (8)</summary>
 
 - [MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering](https://scholar.google.com/scholar?q=MLE-bench%3A+Evaluating+Machine+Learning+Agents+on+Machine+Learning+Engineering) — Chan et al., *International Conference on Learning Representations (ICLR)*, 2025
 - [MLE-Dojo: Interactive Environments for Empowering LLM Agents in Machine Learning Engineering](https://arxiv.org/abs/2505.07782) — Qiang et al., *arXiv preprint*, 2025
-- [MLS-Bench: A Holistic and Rigorous Assessment of AI Systems on Building Better AI](https://arxiv.org/abs/2605.08678) — Lyu et al., *arXiv preprint*, 2026
+- [MLS-Bench: A Holistic and Rigorous Assessment of AI Systems on Building Better AI](https://arxiv.org/abs/2605.08678) — Lyu et al., *Advances in Neural Information Processing Systems (NeurIPS), to appear*, 2026
 - [TML-Bench: Benchmark for Data Science Agents on Tabular ML Tasks](https://arxiv.org/abs/2603.05764) — Pinchuk, *arXiv preprint*, 2026
+- [MLAgentBench: Evaluating Language Agents on Machine Learning Experimentation](https://proceedings.mlr.press/v235/huang24y.html) — Huang et al., *International Conference on Machine Learning (ICML)*, 2024
+- [DSBench: How Far Are Data Science Agents from Becoming Data Science Experts?](https://arxiv.org/abs/2409.07703) — Jing et al., *International Conference on Learning Representations (ICLR)*, 2025
+- [MLGym: A New Framework and Benchmark for Advancing AI Research Agents](https://arxiv.org/abs/2502.14499) — Nathani et al., *arXiv preprint*, 2025
+- [AgentHPOBench: A Benchmark For Evaluating LLM Agents as Sequential Hyperparameter Optimizers](https://arxiv.org/abs/2607.29626) — Huai et al., *arXiv preprint*, 2026
 
 </details>
 
 <details>
-<summary><b>Controlled studies: LLM versus classical optimisation</b> (2)</summary>
+<summary><b>Controlled studies: LLM versus classical optimization</b> (2)</summary>
 
 - [Can LLMs Beat Classical Hyperparameter Optimization Algorithms? A Study on autoresearch](https://arxiv.org/abs/2603.24647) — Ferreira et al., *arXiv preprint*, 2026
 - [When Is an LLM Worth It for Hyperparameter Optimization? A Budget-Matched Study on Tabular Data Finds the Warm-Start Is a Default Configuration, Not the Model](https://arxiv.org/abs/2606.21641) — Rodrigues & Vas, *arXiv preprint*, 2026
@@ -379,9 +384,12 @@ All 119 references cited in the manuscript, grouped by role. Status is taken fro
 </details>
 
 <details>
-<summary><b>Amortised and foundation-model AutoML</b> (1)</summary>
+<summary><b>Amortized models and learned surrogates</b> (4)</summary>
 
 - [Drift-resilient tabPFN: In-context learning temporal distribution shifts on tabular data](https://scholar.google.com/scholar?q=Drift-resilient+tabPFN%3A+In-context+learning+temporal+distribution+shifts+on+tabular+data) — Helli et al., *Advances in Neural Information Processing Systems*, 2024
+- [Towards Learning Universal Hyperparameter Optimizers with Transformers](https://arxiv.org/abs/2205.13320) — Chen et al., *Advances in Neural Information Processing Systems (NeurIPS)*, 2022
+- [Large Language Models to Enhance Bayesian Optimization](https://arxiv.org/abs/2402.03921) — Liu et al., *International Conference on Learning Representations (ICLR)*, 2024
+- [LLM Performance Predictors are Good Initializers for Architecture Search](https://arxiv.org/abs/2310.16712) — Jawahar et al., *Findings of the Association for Computational Linguistics: ACL 2024*, 2024
 
 </details>
 
@@ -419,7 +427,7 @@ All 119 references cited in the manuscript, grouped by role. Status is taken fro
 - [Position: A Call to Action for a Human-Centered AutoML Paradigm](https://arxiv.org/pdf/2406.03348) — Lindauer et al., *Proceedings of the 41st International Conference on Machine Learning*, 2024
 - [Privacy Preserving Federated Learning: A Novel Approach for Combining Differential Privacy and Homomorphic Encryption](https://doi.org/10.1007/978-3-031-60391-4_11) — Aziz et al., *Information Security Theory and Practice*, 2024
 - [Towards Fairness-Aware Multi-Objective Optimization](https://doi.org/10.1007/s40747-024-01668-w) — Yu et al., *Complex & Intelligent Systems*, 2024
-- [CodeCarbon: Track and Reduce Carbon Emissions from Computing](https://codecarbon.io) — Team, *Software / web resource*, 2025
+- [CodeCarbon: Track and Reduce Carbon Emissions from Computing](https://codecarbon.io) — CodeCarbon Team, *Software / web resource*, 2025
 - [Differential privacy and artificial intelligence: potentials, challenges, and future avenues](https://scholar.google.com/scholar?q=Differential+privacy+and+artificial+intelligence%3A+potentials%2C+challenges%2C+and+future+avenues) — Alzoubi & Mishra, *EURASIP Journal on Information Security*, 2025
 - [How Green is AutoML for Tabular Data?](https://openproceedings.org/2025/conf/edbt/paper-97.pdf) — Neutatz et al., *Proceedings of the 28th International Conference on Extending Database Technology (EDBT)*, 2025
 - [SustainaML: Enhancing Transparency, Control, and Green Sustainability in AutoML](https://scholar.google.com/scholar?q=SustainaML%3A+Enhancing+Transparency%2C+Control%2C+and+Green+Sustainability+in+AutoML) — Malik & Shawi, *Joint European Conference on Machine Learning and Knowledge Discovery in Databases*, 2025
