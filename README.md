@@ -155,15 +155,15 @@ All 49 systems with their position on every axis, as in the corpus classificatio
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
 | **[CAAFE](https://scholar.google.com/scholar?q=Large+language+models+for+automated+data+science%3A+Introducing+caafe+for+context-aware+automated+feature+engineering)** | 2023 | Advances in Neural Information Processing Systems | A2 | B2 |  |  | C1 | V_prot (detective) | E1 | F2 | G1 | ●● |
 | **[Agent-K](https://arxiv.org/abs/2411.03562)** | 2024 | arXiv preprint | A1 | B1 |  |  | C4 | V_prot (detective) | E1 | F2 | G1 | ●● |
-| **[AutoKaggle](https://arxiv.org/abs/2410.20424)** | 2024 | arXiv preprint | A1 | B6 |  |  | C1 | V_prot (detective) | E1 | F1 | G1 | ●● |
+| **[AutoKaggle](https://arxiv.org/abs/2410.20424)** | 2024 | ICLR 2025 Workshop | A1 | B6 |  |  | C1 | V_prot (detective) | E1 | F1 | G1 | ●● |
 | **[DS-Agent](https://arxiv.org/abs/2402.17453)** | 2024 | Proceedings of the International Conference on Machine Learning (ICML) | A1 | B2 |  |  | C3 | V_syn | E1 | F1 | G1 | ●● |
 | **[GizaML](https://scholar.google.com/scholar?q=GizaML%3A+A+Collaborative+Meta-learning+Based+Framework+Using+LLM+For+Automated+Time-Series+Forecasting.)** | 2024 | EDBT | A3 | B1 |  |  | C3 | V_prot (structural) | E1 | F2 | G2 | ●● |
 | **[MetaGPT](https://arxiv.org/abs/2308.00352)** | 2024 | Proceedings of the International Conference on Learning Representations (ICLR) | A1 | B6 |  |  | C1 | V_syn | E1 | F1 | G1 | ●● |
 | **[MLCopilot](https://scholar.google.com/scholar?q=MLCopilot%3A+Unleashing+the+Power+of+Large+Language+Models+in+Solving+Machine+Learning+Tasks)** | 2024 | Proceedings of the 18th Conference of the European Chapter of the Association for Computational Linguistics (EACL) | A3 | B1 |  |  | C3 | V_prot (structural) | E1 | F2 | G1 | ●● |
 | **[SELA](https://arxiv.org/abs/2410.17238)** | 2024 | arXiv preprint | A2 | B3 |  |  | C2 | V_syn | E1 | F2 | G1 | ●● |
 | **[AIDE](https://arxiv.org/abs/2502.13138)** | 2025 | arXiv preprint | A1 | B2 |  |  | C2 | V_syn | E1 | F1 | G1 | ●● |
-| **[AIRA-dojo](https://arxiv.org/abs/2507.02554)** | 2025 | arXiv preprint | A1 | B3 |  |  | C2 | V_syn | E1 | F1 | G1 | ●● |
-| **[ArchPilot](https://arxiv.org/abs/2511.03985)** | 2025 | arXiv preprint | A1 | B3 |  | ✓ | C2 | V_syn | E1 | F1 | G1 | ●● |
+| **[AIRA-dojo](https://arxiv.org/abs/2507.02554)** | 2025 | Advances in Neural Information Processing Systems (NeurIPS) | A1 | B3 |  |  | C2 | V_syn | E1 | F1 | G1 | ●● |
+| **[ArchPilot](https://arxiv.org/abs/2511.03985)** | 2025 | ICLR 2026 Workshop | A1 | B3 |  | ✓ | C2 | V_syn | E1 | F1 | G1 | ●● |
 | **[AutoMind](https://arxiv.org/abs/2506.10974)** | 2025 | arXiv preprint | A1 | B3 |  |  | C3 | V_syn | E1 | F1 | G1 | ●● |
 | **[AutoML-Agent](https://arxiv.org/abs/2410.02958)** | 2025 | Proceedings of the International Conference on Machine Learning (ICML) | A1 | B6 |  |  | C3 | V_prot (detective) | E1 | F1 | G1 | ●● |
 | **[AutoMLGen](https://arxiv.org/abs/2510.08511)** | 2025 | arXiv preprint | A2 | B3ᵍ | P |  | C3 | V_syn | E1 | F1 | G1 | ●● |
@@ -171,7 +171,7 @@ All 49 systems with their position on every axis, as in the corpus classificatio
 | **[Data-Interpreter](https://arxiv.org/abs/2402.18679)** | 2025 | Findings of the Association for Computational Linguistics: ACL 2025 | A1 | B1 |  |  | C2 | V_prot (detective) | E1 | F1 | G1 | ●○ |
 | **[FM-Agent](https://arxiv.org/abs/2510.26144)** | 2025 | arXiv preprint | A1 | B4 | P |  | C3 | V_prot (detective) | E1 | F1 | G1 | ●● |
 | **[KompeteAI](https://arxiv.org/abs/2508.10177)** | 2025 | arXiv preprint | A1 | B3 | P |  | C3 | V_syn | E1 | F1 | G1 | ●● |
-| **[LightAutoDS-Tab](https://arxiv.org/abs/2507.13413)** | 2025 | arXiv preprint | A4 | B1 |  |  | C1 | V_prot (structural) | E1 | F3 | G1 | ●● |
+| **[LightAutoDS-Tab](https://arxiv.org/abs/2507.13413)** | 2025 | AAMAS (Demonstration Track) | A4 | B1 |  |  | C1 | V_prot (structural) | E1 | F3 | G1 | ●● |
 | **[ML-Agent](https://arxiv.org/abs/2505.23723)** | 2025 | International Conference on Machine Learning | A1 | B7 |  |  | C1 | V_syn | E1 | F1 | G1 | ●● |
 | **[ML-Master](https://arxiv.org/abs/2506.16499)** | 2025 | arXiv preprint | A1 | B3 |  |  | C2 | V_syn | E1 | F1 | G1 | ●● |
 | **[MLE-STAR](https://arxiv.org/abs/2506.15692)** | 2025 | Advances in Neural Information Processing Systems | A2 | B5 | E |  | C3 | V_syn | E1 | F1 | G1 | ●● |
@@ -180,24 +180,24 @@ All 49 systems with their position on every axis, as in the corpus classificatio
 | **[R&D-Agent](https://arxiv.org/abs/2505.14738)** | 2025 | arXiv preprint | A1 | B6 |  |  | C1 | V_syn | E1 | F1 | G1 | ●● |
 | **[RL4MLE](https://arxiv.org/abs/2509.01684)** | 2025 | International Conference on Learning Representations | A1 | B7 |  |  | C1 | V_syn | E2ₓ | F1 | G1 | ●● |
 | **[AgentGA](https://arxiv.org/abs/2604.14655)** | 2026 | arXiv preprint | A1 | B4 | P |  | C2 | V_syn | E1 | F1 | G1 | ●○ |
-| **[AgentNAS](https://arxiv.org/abs/2607.07984)** | 2026 | arXiv preprint | A2 | B4 | P | ✓ | C1 | V_syn | E2ₓ | F2 | G1 | ●● |
+| **[AgentNAS](https://arxiv.org/abs/2607.07984)** | 2026 | ICML 2026 Workshop | A2 | B4 | P | ✓ | C1 | V_syn | E2ₓ | F2 | G1 | ●● |
 | **[AiScientist](https://arxiv.org/abs/2604.13018)** | 2026 | arXiv preprint | A1 | B6 | E |  | C2 | V_syn | E2_g | F1 | G1 | ●○ |
 | **[Arbor](https://arxiv.org/abs/2606.11926)** | 2026 | arXiv preprint | A2 | B3 |  |  | C2 | V_prot (structural) | E2_g | F1 | G1 | ●● |
 | **[BDaaS-Agent](https://arxiv.org/abs/2606.17915)** | 2026 | arXiv preprint | A4 | B6 |  |  | C1 | V_prot (detective) | E1 | F3 | G2 | ●○ |
 | **[EurekAgent](https://arxiv.org/abs/2606.13662)** | 2026 | arXiv preprint | A1 | B6 |  |  | C1 | V_prot (structural) | E2ₓ | F1 | G1 | ●● |
 | **[GEAR](https://arxiv.org/abs/2605.13874)** | 2026 | arXiv preprint | A1 | B4 | P |  | C2 | V_syn | E1 | F1 | G1 | ●○ |
-| **[HASTE](https://arxiv.org/abs/2606.30911)** | 2026 | arXiv preprint | A1 | B6 |  |  | C4 | V_syn | E1 | F1 | G1 | ●● |
+| **[HASTE](https://arxiv.org/abs/2606.30911)** | 2026 | ICML 2026 Workshop | A1 | B6 |  |  | C4 | V_syn | E1 | F1 | G1 | ●● |
 | **[I-MCTS](https://arxiv.org/abs/2502.14693)** | 2026 | Findings of the Association for Computational Linguistics: EACL | A2 | B3 | I |  | C2 | V_syn | E1 | F1 | G1 | ●● |
 | **[iML](https://arxiv.org/abs/2602.13937)** | 2026 | arXiv preprint | A2 | B6 |  |  | C1 | V_prot (detective) | E1 | F1 | G1 | ●● |
 | **[KAPSO](https://arxiv.org/abs/2601.21526)** | 2026 | arXiv preprint | A1 | B2 |  |  | C3 | V_syn | E1 | F1 | G1 | ●● |
 | **[LLM-FE](https://arxiv.org/abs/2503.14434)** | 2026 | Transactions on Machine Learning Research | A2 | B4 | P |  | C4 | V_prot (detective) | E1 | F1 | G1 | ●● |
 | **[Malena](https://arxiv.org/abs/2609.40303)** | 2026 | arXiv preprint | A1 | B2 |  |  | C1 | V_syn | E2_g | F1 | G1 | ●● |
 | **[MALMAS](https://arxiv.org/abs/2604.20261)** | 2026 | Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL) | A2 | B6 |  |  | C4 | V_syn | E1 | F1 | G1 | ●● |
-| **[MARS](https://arxiv.org/abs/2602.02660)** | 2026 | arXiv preprint | A1 | B3 | I |  | C2 | V_syn | E2ₓ | F1 | G1 | ●● |
+| **[MARS](https://arxiv.org/abs/2602.02660)** | 2026 | International Conference on Machine Learning (ICML) | A1 | B3 | I |  | C2 | V_syn | E2ₓ | F1 | G1 | ●● |
 | **[MLE-Ideator](https://aclanthology.org/2026.eacl-short.32.pdf)** | 2026 | Proceedings of the 19th Conference of the European Chapter of the Association for Computational Linguistics (Volume 2: Short Papers) | A1 | B7 |  |  | C1 | V_syn | E2_g | F1 | G1 | ●● |
 | **[MLEvolve](https://arxiv.org/abs/2606.06473)** | 2026 | arXiv preprint | A2 | B4 | P |  | C4 | V_syn | E1 | F1 | G1 | ●○ |
 | **[Praxist](https://arxiv.org/abs/2608.25955)** | 2026 | arXiv preprint | A1 | B4 | P | ✓ | C2 | V_prot (structural) | E2_g | F1 | G1 | ●● |
-| **[SandMLE](https://arxiv.org/abs/2604.04872)** | 2026 | arXiv preprint | A1 | B7 |  |  | C1 | V_syn | E1 | F1 | G1 | ●● |
+| **[SandMLE](https://arxiv.org/abs/2604.04872)** | 2026 | Conference on Language Modeling (COLM) | A1 | B7 |  |  | C1 | V_syn | E1 | F1 | G1 | ●● |
 | **[ScienceFlow](https://arxiv.org/abs/2608.14354)** | 2026 | arXiv preprint | A1 | B3 |  |  | C2 | V_syn | E2ₓ | F1 | G1 | ●○ |
 | **[SEA-TS](https://arxiv.org/abs/2603.04873)** | 2026 | arXiv preprint | A1 | B3 | I |  | C2 | V_prot (detective) | E1 | F1 | G2 | ●● |
 | *[TabICL](https://scholar.google.com/scholar?q=TabICL%3A+A+Tabular+Foundation+Model+for+In-Context+Learning+on+Large+Data)* | 2025 | Proceedings of the 42nd International Conference on Machine Learning (ICML) | — | — |  |  | — | V_prot (structural) | E1 | — | — | ●● |
@@ -205,7 +205,7 @@ All 49 systems with their position on every axis, as in the corpus classificatio
 
 ## 📊 Corpus findings
 
-All findings are computed over the 47 agentic systems. Of these, 16 are peer-reviewed, 1 is a workshop paper and 30 are preprints; F1–F4 hold on the peer-reviewed subset with similar proportions, while F5 and F6 rest mostly on preprints.
+All findings are computed over the 47 agentic systems. At the end of the search window (October 2026), 19 of these had appeared at peer-reviewed venues, 5 at workshops or in a demonstration track, and 23 only as preprints; F1–F4 hold on the peer-reviewed subset with similar proportions, while F5 and F6 rest mostly on preprints and workshop papers.
 
 | Finding | Result | Reading |
 |---|---|---|
@@ -253,15 +253,15 @@ All 131 references cited in the manuscript, grouped by role. Status is taken fro
 
 - **CAAFE**: [Large language models for automated data science: Introducing caafe for context-aware automated feature engineering](https://scholar.google.com/scholar?q=Large+language+models+for+automated+data+science%3A+Introducing+caafe+for+context-aware+automated+feature+engineering) — Hollmann et al., *Advances in Neural Information Processing Systems*, 2023
 - **Agent-K**: [Kolb-Based Experiential Learning for Generalist Agents with Human-Level Kaggle Data Science Performance](https://arxiv.org/abs/2411.03562) — Grosnit et al., *arXiv preprint*, 2024
-- **AutoKaggle**: [AutoKaggle: A Multi-Agent Framework for Autonomous Data Science Competitions](https://arxiv.org/abs/2410.20424) — Li et al., *arXiv preprint*, 2024
+- **AutoKaggle**: [AutoKaggle: A Multi-Agent Framework for Autonomous Data Science Competitions](https://arxiv.org/abs/2410.20424) — Li et al., *ICLR 2025 Workshop*, 2025
 - **DS-Agent**: [DS-Agent: Automated Data Science by Empowering Large Language Models with Case-Based Reasoning](https://arxiv.org/abs/2402.17453) — Guo et al., *Proceedings of the International Conference on Machine Learning (ICML)*, 2024
 - **GizaML**: [GizaML: A Collaborative Meta-learning Based Framework Using LLM For Automated Time-Series Forecasting.](https://scholar.google.com/scholar?q=GizaML%3A+A+Collaborative+Meta-learning+Based+Framework+Using+LLM+For+Automated+Time-Series+Forecasting.) — Sayed et al., *EDBT*, 2024
 - **MetaGPT**: [MetaGPT: Meta Programming for a Multi-Agent Collaborative Framework](https://arxiv.org/abs/2308.00352) — Hong et al., *Proceedings of the International Conference on Learning Representations (ICLR)*, 2024
 - **MLCopilot**: [MLCopilot: Unleashing the Power of Large Language Models in Solving Machine Learning Tasks](https://scholar.google.com/scholar?q=MLCopilot%3A+Unleashing+the+Power+of+Large+Language+Models+in+Solving+Machine+Learning+Tasks) — Zhang et al., *Proceedings of the 18th Conference of the European Chapter of the Association for Computational Linguistics (EACL)*, 2024
 - **SELA**: [SELA: Tree-Search Enhanced LLM Agents for Automated Machine Learning](https://arxiv.org/abs/2410.17238) — Chi et al., *arXiv preprint*, 2024
 - **AIDE**: [AIDE: AI-Driven Exploration in the Space of Code](https://arxiv.org/abs/2502.13138) — Jiang et al., *arXiv preprint*, 2025
-- **AIRA-dojo**: [AI Research Agents for Machine Learning: Search, Exploration, and Generalization in MLE-bench](https://arxiv.org/abs/2507.02554) — Toledo et al., *arXiv preprint*, 2025
-- **ArchPilot**: [ArchPilot: A Proxy-Guided Multi-Agent Approach for Machine Learning Engineering](https://arxiv.org/abs/2511.03985) — Yuan et al., *arXiv preprint*, 2025
+- **AIRA-dojo**: [AI Research Agents for Machine Learning: Search, Exploration, and Generalization in MLE-bench](https://arxiv.org/abs/2507.02554) — Toledo et al., *Advances in Neural Information Processing Systems (NeurIPS)*, 2025
+- **ArchPilot**: [ArchPilot: A Proxy-Guided Multi-Agent Approach for Machine Learning Engineering](https://arxiv.org/abs/2511.03985) — Yuan et al., *ICLR 2026 Workshop on Multi-Agent Learning and Its Opportunities in the Era of Generative AI*, 2026
 - **AutoMind**: [AutoMind: Adaptive Knowledgeable Agent for Automated Data Science](https://arxiv.org/abs/2506.10974) — Ou et al., *arXiv preprint*, 2025
 - **AutoML-Agent**: [AutoML-Agent: A Multi-Agent LLM Framework for Full-Pipeline AutoML](https://arxiv.org/abs/2410.02958) — Trirat et al., *Proceedings of the International Conference on Machine Learning (ICML)*, 2025
 - **AutoMLGen**: [AutoMLGen: Navigating Fine-Grained Optimization for Coding Agents](https://arxiv.org/abs/2510.08511) — Du et al., *arXiv preprint*, 2025
@@ -269,7 +269,7 @@ All 131 references cited in the manuscript, grouped by role. Status is taken fro
 - **Data-Interpreter**: [Data interpreter: An llm agent for data science](https://arxiv.org/abs/2402.18679) — Hong et al., *Findings of the Association for Computational Linguistics: ACL 2025*, 2025
 - **FM-Agent**: [The FM Agent](https://arxiv.org/abs/2510.26144) — Li et al., *arXiv preprint*, 2025
 - **KompeteAI**: [KompeteAI: Accelerated Autonomous Multi-Agent System for End-to-End Pipeline Generation for Machine Learning Problems](https://arxiv.org/abs/2508.10177) — Kulibaba et al., *arXiv preprint*, 2025
-- **LightAutoDS-Tab**: [LightAutoDS-Tab: Multi-AutoML Agentic System for Tabular Data](https://arxiv.org/abs/2507.13413) — Lapin et al., *arXiv preprint*, 2025
+- **LightAutoDS-Tab**: [LightAutoDS-Tab: Multi-AutoML Agentic System for Tabular Data](https://arxiv.org/abs/2507.13413) — Lapin et al., *AAMAS, Demonstration Track*, 2026
 - **ML-Agent**: [ML-Agent: Reinforcing LLM Agents for Autonomous Machine Learning Engineering](https://arxiv.org/abs/2505.23723) — Liu et al., *International Conference on Machine Learning*, 2026
 - **ML-Master**: [ML-Master: Towards AI-for-AI via Integration of Exploration and Reasoning](https://arxiv.org/abs/2506.16499) — Liu et al., *arXiv preprint*, 2025
 - **MLE-STAR**: [MLE-STAR: Machine Learning Engineering Agent via Search and Targeted Refinement](https://arxiv.org/abs/2506.15692) — Nam et al., *Advances in Neural Information Processing Systems*, 2025
@@ -280,24 +280,24 @@ All 131 references cited in the manuscript, grouped by role. Status is taken fro
 - **TabICL**: [TabICL: A Tabular Foundation Model for In-Context Learning on Large Data](https://scholar.google.com/scholar?q=TabICL%3A+A+Tabular+Foundation+Model+for+In-Context+Learning+on+Large+Data) — Qu et al., *Proceedings of the 42nd International Conference on Machine Learning (ICML)*, 2025
 - **TabPFN**: [Accurate predictions on small data with a tabular foundation model](https://scholar.google.com/scholar?q=Accurate+predictions+on+small+data+with+a+tabular+foundation+model) — Hollmann et al., *Nature*, 2025
 - **AgentGA**: [AgentGA: Evolving Code Solutions in Agent-Seed Space](https://arxiv.org/abs/2604.14655) — Tan & Chin, *arXiv preprint*, 2026
-- **AgentNAS**: [Agentic Neural Architecture Search](https://arxiv.org/abs/2607.07984) — Jeong et al., *arXiv preprint*, 2026
+- **AgentNAS**: [Agentic Neural Architecture Search](https://arxiv.org/abs/2607.07984) — Jeong et al., *ICML 2026 Workshop on Deep Learning for Code*, 2026
 - **AiScientist**: [Toward Autonomous Long-Horizon Engineering for ML Research](https://arxiv.org/abs/2604.13018) — Chen et al., *arXiv preprint*, 2026
 - **Arbor**: [Toward Generalist Autonomous Research via Hypothesis-Tree Refinement](https://arxiv.org/abs/2606.11926) — Jin et al., *arXiv preprint*, 2026
 - **BDaaS-Agent**: [Trustworthy Self-Composable Big-Data-as-a-Service: An LLM-Orchestrated Multi-Agent Framework for Automated Data Engineering, AutoML, MLOps Deployment, and Drift-Aware Lifecycle Optimization](https://arxiv.org/abs/2606.17915) — Aueawatthanaphisut & Lamichhane, *arXiv preprint*, 2026
 - **EurekAgent**: [EurekAgent: Agent Environment Engineering is All You Need for Autonomous Scientific Discovery](https://arxiv.org/abs/2606.13662) — Xin et al., *arXiv preprint*, 2026
 - **GEAR**: [GEAR: Genetic AutoResearch for Agentic Code Evolution](https://arxiv.org/abs/2605.13874) — Jeddi et al., *arXiv preprint*, 2026
-- **HASTE**: [Why Solve It Twice? Hierarchical Accumulation of Skills for Transfer-Efficient ML Engineering](https://arxiv.org/abs/2606.30911) — Kim et al., *arXiv preprint*, 2026
+- **HASTE**: [Why Solve It Twice? Hierarchical Accumulation of Skills for Transfer-Efficient ML Engineering](https://arxiv.org/abs/2606.30911) — Kim et al., *ICML 2026 Workshop on Deep Learning for Code*, 2026
 - **I-MCTS**: [I-MCTS: Enhancing Agentic AutoML via Introspective Monte Carlo Tree Search](https://arxiv.org/abs/2502.14693) — Liang et al., *Findings of the Association for Computational Linguistics: EACL*, 2026
 - **iML**: [iML: Executable, Problem-Grounded, and Broadly Exploratory Code-Driven AutoML](https://arxiv.org/abs/2602.13937) — Le et al., *arXiv preprint*, 2026
 - **KAPSO**: [KAPSO: A Knowledge-grounded Framework for Autonomous Program Synthesis and Optimization](https://arxiv.org/abs/2601.21526) — Nadafian et al., *arXiv preprint*, 2026
 - **LLM-FE**: [LLM-FE: Automated Feature Engineering for Tabular Data with LLMs as Evolutionary Optimizers](https://arxiv.org/abs/2503.14434) — Abhyankar et al., *Transactions on Machine Learning Research*, 2026
 - **Malena**: [How Much of a Harness Does a Strong Agent Need for Autonomous ML Engineering?](https://arxiv.org/abs/2609.40303) — Brilliantov et al., *arXiv preprint*, 2026
 - **MALMAS**: [Memory-Augmented LLM-based Multi-Agent System for Automated Feature Generation on Tabular Data](https://arxiv.org/abs/2604.20261) — Dong et al., *Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL)*, 2026
-- **MARS**: [MARS: Modular Agent with Reflective Search for Automated AI Research](https://arxiv.org/abs/2602.02660) — Chen et al., *arXiv preprint*, 2026
+- **MARS**: [MARS: Modular Agent with Reflective Search for Automated AI Research](https://arxiv.org/abs/2602.02660) — Chen et al., *International Conference on Machine Learning (ICML)*, 2026
 - **MLE-Ideator**: [Learning to Ideate for Machine Learning Engineering Agents](https://aclanthology.org/2026.eacl-short.32.pdf) — Zhang et al., *Proceedings of the 19th Conference of the European Chapter of the Association for Computational Linguistics (Volume 2: Short Papers)*, 2026
 - **MLEvolve**: [MLEvolve: A Self-Evolving Framework for Automated Machine Learning Algorithm Discovery](https://arxiv.org/abs/2606.06473) — Du et al., *arXiv preprint*, 2026
 - **Praxist**: [Praxist: From Experimental Artifacts to Solution Lineages](https://arxiv.org/abs/2608.25955) — Li et al., *arXiv preprint*, 2026
-- **SandMLE**: [Synthetic Sandbox for Training Machine Learning Engineering Agents](https://arxiv.org/abs/2604.04872) — Zhou et al., *arXiv preprint*, 2026
+- **SandMLE**: [Synthetic Sandbox for Training Machine Learning Engineering Agents](https://arxiv.org/abs/2604.04872) — Zhou et al., *Conference on Language Modeling (COLM)*, 2026
 - **ScienceFlow**: [ScienceFlow: A Long-Horizon Agent for ML Research, Scientific Discovery and Beyond](https://arxiv.org/abs/2608.14354) — Zhao et al., *arXiv preprint*, 2026
 - **SEA-TS**: [SEA-TS: Self-Evolving Agent for Autonomous Code Generation of Time Series Forecasting Algorithms](https://arxiv.org/abs/2603.04873) — Xu et al., *arXiv preprint*, 2026
 
@@ -348,7 +348,7 @@ All 131 references cited in the manuscript, grouped by role. Status is taken fro
 <summary><b>Benchmarks and evaluation infrastructure</b> (8)</summary>
 
 - [MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering](https://scholar.google.com/scholar?q=MLE-bench%3A+Evaluating+Machine+Learning+Agents+on+Machine+Learning+Engineering) — Chan et al., *International Conference on Learning Representations (ICLR)*, 2025
-- [MLE-Dojo: Interactive Environments for Empowering LLM Agents in Machine Learning Engineering](https://arxiv.org/abs/2505.07782) — Qiang et al., *arXiv preprint*, 2025
+- [MLE-Dojo: Interactive Environments for Empowering LLM Agents in Machine Learning Engineering](https://arxiv.org/abs/2505.07782) — Qiang et al., *Advances in Neural Information Processing Systems (NeurIPS)*, 2025
 - [MLS-Bench: A Holistic and Rigorous Assessment of AI Systems on Building Better AI](https://arxiv.org/abs/2605.08678) — Lyu et al., *Advances in Neural Information Processing Systems (NeurIPS), to appear*, 2026
 - [TML-Bench: Benchmark for Data Science Agents on Tabular ML Tasks](https://arxiv.org/abs/2603.05764) — Pinchuk, *arXiv preprint*, 2026
 - [MLAgentBench: Evaluating Language Agents on Machine Learning Experimentation](https://proceedings.mlr.press/v235/huang24y.html) — Huang et al., *International Conference on Machine Learning (ICML)*, 2024
